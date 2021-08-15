@@ -1,0 +1,12 @@
+{
+  "name": "typescript_tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/designkezi/typescript_tutorial.git",
+  "author": "kezi <zihun.kye@solarconnect.kr>",
+  "license": "MIT",
+  "scripts": {
+    "start":"node index.js",
+    "prestart":"tsc"
+  }
+}
