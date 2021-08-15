@@ -6,7 +6,12 @@
   "author": "kezi <zihun.kye@solarconnect.kr>",
   "license": "MIT",
   "scripts": {
-    "start":"node index.js",
-    "prestart":"tsc"
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.4.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
